@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import HeaderBar from './HeaderBar.js';
+import UserColumn from './UserColumn.js';
+import FeedColumn from './FeeeColumn.js';
+import ContactsColumn from './ContactsColumn.js';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+      <HeaderBar />
+      <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <UserColumn />
+          </div>
+          <div class="col-4">
+            <FeedColumn />
+          </div>
+          <div class="col-4">
+            <ContactsColumn />
+          </div>
+        </div>
+      </div>
+    </React.Fragment>
   );
 }
 
