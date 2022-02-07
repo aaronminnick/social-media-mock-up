@@ -6,6 +6,8 @@ function Contact(props){
     <React.Fragment>
       <img src={props.image} alt="contact"/>
       <h3>{props.user}</h3>
+      <button className="btn">View Profile</button>
+      <hr/>
     </React.Fragment>
   )
 }

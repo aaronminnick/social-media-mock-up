@@ -3,7 +3,10 @@ import FeedStatusInput from './FeedStatusInput.js'
 
 function FeedColumnHeader(){
   return (
-    <FeedStatusInput />
+    <React.Fragment>
+      <FeedStatusInput />
+      <hr/>
+    </React.Fragment>
   );
 }
 

@@ -2,7 +2,7 @@ import React from 'react';
 
 function NavBarButton(props) {
   return (
-    <button class="btn">
+    <button className="btn">
       {props.text}
     </button>
   );

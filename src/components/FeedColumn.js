@@ -24,7 +24,7 @@ const items = [
   {
     image: PJ,
     user: 'PJ',
-    text: 'I\'m yellow',
+    text: 'I\'m a dinosaur, lol',
     replies: []
   }
 ]
@@ -33,7 +33,7 @@ function UserColumn(props){
     <React.Fragment>
       <FeedColumnHeader />
       {items.map((item, index) =>
-        <FeedItem //image={item.image}
+        <FeedItem image={item.image}
           user={item.user}
           text={item.text}
           replies={item.replies}

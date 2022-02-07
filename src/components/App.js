@@ -7,16 +7,18 @@ import ContactsColumn from './ContactsColumn.js';
 function App() {
   return (
     <React.Fragment>
-      <HeaderBar />
-      <div class="container">
-        <div class="row">
-          <div class="col-4">
+      <div className="container">
+        <div className="row">
+          <HeaderBar />
+        </div>
+        <div className="row">
+          <div className="col-4">
             <UserColumn />
           </div>
-          <div class="col-4">
+          <div className="col-4">
             <FeedColumn />
           </div>
-          <div class="col-4">
+          <div className="col-4">
             <ContactsColumn />
           </div>
         </div>

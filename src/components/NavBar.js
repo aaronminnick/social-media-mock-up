@@ -17,8 +17,8 @@ function NavBar(){
   return(
     <React.Fragment>
     {buttons.map((button, index) =>
-      <NavBarButton> text={button.text}
-      </NavBarButton>
+      <NavBarButton text={button.text}
+        key={index} />
     )}
     </React.Fragment>
   );
