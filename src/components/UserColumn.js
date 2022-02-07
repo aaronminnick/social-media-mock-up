@@ -1,6 +1,6 @@
 import React from 'react';
-import UserBox from './UserBox';
-import UserDescription from './UserDescription';
+import UserBox from './UserBox.js';
+import UserDescription from './UserDescription.js';
 
 function UserColumn(props){
   return (
@@ -10,3 +10,5 @@ function UserColumn(props){
     </React.Fragment>
   );
 }
+
+export default UserColumn;

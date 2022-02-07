@@ -1,3 +1,3 @@
 # Social Media Site Mock-up
 
-<img src="./mock.png">
+<img src="./src/img/mock.png">
