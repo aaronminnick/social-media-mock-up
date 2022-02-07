@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 function UserBoxButton(props) {
   return (
-    <button class="btn">
+    <button className="btn box-button">
       {props.text}
     </button>
   );

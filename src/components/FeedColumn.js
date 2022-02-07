@@ -28,6 +28,7 @@ const items = [
     replies: []
   }
 ]
+
 function UserColumn(props){
   return (
     <React.Fragment>

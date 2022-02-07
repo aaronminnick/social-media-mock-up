@@ -5,11 +5,14 @@ import TweetButton from './TweetButton.js';
 
 function HeaderBar() {
   return (
-    <React.Fragment>
+    <div className="header">
       <NavBar />
-      <SearchBar />
-      <TweetButton />
-    </React.Fragment>
+      <div className='nav-right'>
+        <SearchBar />
+        <TweetButton />
+      </div>
+      <hr/>
+    </div>
   );
 }
 

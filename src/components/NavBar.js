@@ -16,10 +16,12 @@ const buttons = [
 function NavBar(){
   return(
     <React.Fragment>
-    {buttons.map((button, index) =>
-      <NavBarButton text={button.text}
-        key={index} />
-    )}
+      <div className="nav-bar btn-group btn-group-toggle" data-toggle="buttons">
+        {buttons.map((button, index) =>
+          <NavBarButton text={button.text}
+            key={index} />
+        )}
+      </div>
     </React.Fragment>
   );
 }

@@ -11,14 +11,14 @@ function App() {
         <div className="row">
           <HeaderBar />
         </div>
-        <div className="row">
-          <div className="col-4">
+        <div className="row body-row">
+          <div className="col-3 user-column">
             <UserColumn />
           </div>
-          <div className="col-4">
+          <div className="col-6">
             <FeedColumn />
           </div>
-          <div className="col-4">
+          <div className="col-3">
             <ContactsColumn />
           </div>
         </div>

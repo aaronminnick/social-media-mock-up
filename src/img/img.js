@@ -3,7 +3,7 @@ import BabyBop from './babybop.png';
 import Barney from './barney.png';
 import PJ from './pj.png';
 
-export{
+export {
   Jacob,
   BabyBop,
   Barney,

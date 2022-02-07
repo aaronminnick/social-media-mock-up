@@ -4,9 +4,15 @@ import PropTypes from 'prop-types';
 function Contact(props){
   return (
     <React.Fragment>
-      <img src={props.image} alt="contact"/>
-      <h3>{props.user}</h3>
-      <button className="btn">View Profile</button>
+      <div className="row">
+        <div className="col-4">
+          <img className="contact-img" src={props.image} alt="contact"/>
+        </div>
+        <div className="col-8">
+          <h5>{props.user} <button className="btn box-button">View Profile</button></h5>
+          
+        </div>
+      </div>
       <hr/>
     </React.Fragment>
   )

@@ -25,7 +25,7 @@ function ContactsColumn(props){
       {ContactList.map((contact, index) =>
       <Contact image={contact.image}
         user={contact.user}
-        key="index"
+        key={index}
       />
       )}
     </React.Fragment> 
